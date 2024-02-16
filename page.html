@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Class Availability Checker</title>
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("HX9K1oPjIDR_zv8l1");
+        })();
+    </script>
+</head>
+<body>
+    <h1>Check Class Availability</h1>
+    <form id="availabilityForm">
+        <input type="text" id="email" placeholder="Enter your Sabanci Univ email"><br><br>
+        <input type="text" id="crn" placeholder="Enter the CRN code"><br><br>
+        <button type="button" onclick="startChecking()">Start Checking</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
